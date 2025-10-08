@@ -36,3 +36,5 @@ jobs:
     # Paso 5: Ejecutar las pruebas de regresión en un entorno virtual sin interfaz
     - name: Ejecutar pruebas de regresión con Selenium
       run: xvfb-run --auto-servernum npm test
+
+      
